@@ -129,7 +129,7 @@ document.getElementById('download-resume').addEventListener('click', (e) => {
     
     setTimeout(() => {
         // Replace with your actual resume URL
-        const resumeUrl = 'https://drive.google.com/file/d/1nwURKTs9O4RmpgwsWuvfipLrsa447Hx1/view?usp=drive_link';
+        const resumeUrl = 'https://drive.google.com/file/d/1_9XrG0yoZKB7Z9esy03s9d6SP96LHEnf/view?usp=drive_link';
         
         const link = document.createElement('a');
         link.href = resumeUrl;
