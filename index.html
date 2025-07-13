@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - MMM</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tech" class="nav-link">Tech Stack</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Madhuja Mungase</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm a Data-Driven Individual & Insight-Oriented Learner I build fast, reliable, and user-focused software products using data and development expertise.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" id="download-resume">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </button>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-code"></i>
+                            View Projects
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Data Analytics</h3>
+                            <p>Insights & Visualization</p>
+                        </div>
+                    </div>
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <i class="fas fa-code"></i>
+                            <h3>Software Development</h3>
+                            <p>Web Applications</p>
+                        </div>
+                    </div>
+                    <div class="floating-card">
+                        <div class="card-content">
+                            <i class="fas fa-brain"></i>
+                            <h3>ML & Analytics</h3>
+                            <p>Predictive Modeling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Programming</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Libraries</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-calculator"></i>
+                            <span>NumPy</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-area"></i>
+                            <span>Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Concepts</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-cube"></i>
+                            <span>OOPS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-search"></i>
+                            <span>Supervised Learning</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Model Evaluation</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-users"></i>
+                            <span>Agile/Scrum</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Tools</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-google"></i>
+                            <span>Google Colab</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-column"></i>
+                            <span>IBM Cognos</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-file-excel"></i>
+                            <span>MS Excel</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Exploratory Data Analysis and Churn Prediction in Telecom</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/madhujammm/Telco-Customer-Churn-Prediction" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Engineered a customer churn prediction model on Telco dataset using Random Forest & Decision Tree with comprehensive EDA and feature engineering.
+                    </p>
+                    <ul class="project-achievements">
+                        <li>Achieved ~88% accuracy and 0.89 F1-score on 7K+ records using Random Forest & Decision Tree</li>
+                        <li>Applied EDA, feature engineering, label/one-hot encoding, scaling, and outlier detection</li>
+                        <li>Deployed interactive Streamlit app for real-time predictions with joblib model persistence</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Streamlit</span>
+                        <span class="tech-tag">SMOTE</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Searching and Sorting Visualizer</h3>
+                        <div class="project-links">
+                            <a href="https://dazzling-bubblegum-57e818.netlify.app/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/madhujammm/Algorithm-Visualizer" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Interactive web application visualizing 6 sorting algorithms and 5 searching algorithms with real-time animations and educational features.
+                    </p>
+                    <ul class="project-achievements">
+                        <li>Developed visualizer for 6 sorting (Bubble, Insertion, Selection, Merge, Quick, Tim) and 5 searching algorithms</li>
+                        <li>Implemented real-time animation with labeled states (Comparing, Swapping, Sorted, Found, Pivot)</li>
+                        <li>Followed MVC principles with clean UI and categorized dropdowns for enhanced user experience</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Banking Risk Analytics</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/madhujammm/Banking-Risk-Analytics" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Comprehensive Power BI dashboard for banking risk analysis and decision-making using multi-table relational data and advanced DAX functions.
+                    </p>
+                    <ul class="project-achievements">
+                        <li>Built comprehensive dashboard improving loan approval strategies and client targeting</li>
+                        <li>Applied DAX functions (SUMX, DISTINCTCOUNT, SWITCH) to compute KPIs: $139.9M Loans, $111.49M Deposits</li>
+                        <li>Delivered interactive dashboards (Loan Analysis, Deposit Analysis, Summary View) with advanced visualizations</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">DAX</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Data Modeling</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Diamonds Business Website</h3>
+                        <div class="project-links">
+                            <a href="https://madhujammm.github.io/Diamonds-Website/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/madhujammm/Diamonds-Website" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        Professional-grade business website for a diamonds company featuring real-time email integration and fully responsive design across all devices.
+                    </p>
+                    <ul class="project-achievements">
+                        <li>Integrated real-time email functionality using Email.js to receive customer inquiries instantly</li>
+                        <li>Built fully responsive UI ensuring optimal experience across mobile, tablet, and desktop devices</li>
+                        <li>Designed modern layout with smooth navigation and user-focused interactions for enhanced UX</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Email.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="about-intro">
+                    Computer Science undergraduate with a solid grasp of programming fundamentals. Passionate about the future of machine learning and software development. Eager to gain experience by building impactful, real-world solutions. I love turning complex data into actionable insights and building intelligent applications that solve real-world problems.
+                </p>
+                <p class="about-description">
+                    Currently seeking full-time opportunities in machine learning, data analytics, software development roles where I can leverage my skills in statistical modeling, web development, and data visualization to drive business impact.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>B.Tech in Computer Science</p>
+                            <p>CGPA: 8.57/10</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Pune, India</p>
+                        </div>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-heart"></i>
+                        <div>
+                            <h4>Other Interests</h4>
+                            <p>Working-out, Reading, and building innovative solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="about-image-placeholder">
+                    <img src="photo.jpg" alt="Professional Photo" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-info-horizontal">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:madhujamungase2@gmail.com">madhujamungase2@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/madhuja-mungase-9a8268258/" target="_blank">madhuja-mungase</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/madhujammm" target="_blank">madhujammm</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Madhuja Mungase. All rights reserved.</p>
+         
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
